@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belchior Aide | The Vision</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap');
+
+        /* ===== ESTILO GERAL ===== */
+        body {
+            font-family: 'Open Sans', sans-serif;
+            background: radial-gradient(circle at top, #111 0%, #000 80%);
+            color: #e0e0e0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1a1a1a, #000);
+            text-align: center;
+            padding: 50px 20px;
+            border-bottom: 2px solid #d4af37;
+        }
+
+        header h1 {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 3em;
+            color: #d4af37;
+            margin: 0;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+        }
+
+        header p {
+            color: #c0c0c0;
+            font-style: italic;
+            margin-top: 8px;
+            font-size: 1.1em;
+        }
+
+        section {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        h2 {
+            font-family: 'Bebas Neue', sans-serif;
+            color: #d4af37;
+            border-left: 5px solid #b30000;
+            padding-left: 10px;
+            font-size: 1.8em;
+            letter-spacing: 1px;
+        }
+
+        p {
+            line-height: 1.7;
+            font-size: 1.05em;
+        }
+
+        /* ===== FOTO ===== */
+        .foto {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .foto img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 3px solid #d4af37;
+            object-fit: cover;
+            box-shadow: 0 0 25px rgba(212, 175, 55, 0.3);
+        }
+
+        /* ===== SKILLS ===== */
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .skill {
+            background: #1a1a1a;
+            padding: 15px;
+            border-radius: 10px;
+            border: 1px solid #333;
+            text-align: center;
+            color: #ffcccc;
+            font-weight: 600;
+            transition: 0.3s;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .skill:hover {
+            background: #b30000;
+            color: #fff;
+            border-color: #d4af37;
+        }
+
+        /* ===== LINK DO SITE ===== */
+        .link-site {
+            display: block;
+            text-align: center;
+            margin: 40px auto;
+            background: #d4af37;
+            color: #000;
+            text-decoration: none;
+            padding: 15px 40px;
+            border-radius: 10px;
+            font-weight: bold;
+            font-size: 1.1em;
+            letter-spacing: 1px;
+            transition: 0.3s;
+        }
+
+        .link-site:hover {
+            background: #ffcc33;
+        }
+
+        /* ===== CONTACTOS ===== */
+        .contactos {
+            margin-top: 30px;
+            background: #111;
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid #333;
+            color: #d4d4d4;
+        }
+
+        .contactos p {
+            margin: 5px 0;
+            font-size: 1em;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            background: #000;
+            border-top: 1px solid #d4af37;
+            font-size: 0.9em;
+            color: #888;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Belchior Aide</h1>
+        <p>Arte • Estilo • Consciência</p>
+    </header>
+
+    <div class="foto">
+        <img src="foto.jpg" alt="Foto de Belchior Aide">
+    </div>
+
+    <section>
+        <h2> Quem Sou Eu</h2>
+        <p1>
+            Yo, eu sou <strong>Belchior Aide</strong> — 16 anos, estudante da
+            <strong>Escola Secundária Mártires de Mbuzine</strong> (11ª classe, turma DGD).
+            Crescido no ritmo da velha escola do hip-hop, a minha arte é o reflexo do <em>flow</em> dos 90’s —
+            liberdade, atitude e visão.
+        </p1>
+
+        <h2> O Que Eu Faço</h2>
+        <div class="skills">
+            <div class="skill">Produtor Musical</div>
+            <div class="skill">Letrista</div>
+            <div class="skill">Beat Maker</div>
+            <div class="skill">Designer de Interiores</div>
+            <div class="skill">Designer de Roupas</div>
+            <div class="skill">Arquitecto em Formação</div>
+        </div>
+
+        <h2> Formação</h2>
+        <p>
+            Aluno do <strong>Professor Arlindo</strong> em TICs, aprendendo a transformar ideias em códigos e estilos em
+            experiências visuais.
+        </p>
+
+        <h2>🧥 Projectos</h2>
+        <p>
+            Criador da marca <strong>BG Streetwear</strong> — uma mistura de elegância urbana com a essência da cultura
+            de rua.
+            Cada peça conta uma história, cada linha é uma batida.
+        </p>
+
+        <a href="https://belchioraide.github.io/Belchior-Aide/" class="link-site" target="_blank">
+            Ver o site BG Streetwear
+        </a>
+
+        <h2>📞 Contactos</h2>
+        <div class="contactos">
+            <p><strong>Email:</strong> belchioraide@gmail.com</p>
+            <p><strong>Instagram:</strong> @belchioraide</p>
+            <p><strong>Telefone:</strong> +258 85 044 7272</p>
+        </div>
+    </section>
+
+    <footer>
+        © 2025 Belchior Aide — “Dream Big. Think Bold. Stay Real.” ✊
+    </footer>
+</body>
+
+</html>
